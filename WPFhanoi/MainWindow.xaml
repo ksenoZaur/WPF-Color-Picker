@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFhanoi"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="WPF Color Picker" Height="350" Width="525">
+        <Grid>
+            
+            <!-- Описываем строки грида -->
+            <Grid.RowDefinitions>
+               <RowDefinition Height="Auto"></RowDefinition> 
+               <RowDefinition Height="Auto"></RowDefinition> 
+               <RowDefinition Height="Auto"></RowDefinition> 
+               <RowDefinition Height="Auto"></RowDefinition> 
+               <RowDefinition Height="*"></RowDefinition> 
+            </Grid.RowDefinitions>
+            
+            
+        </Grid>
 </Window>
