@@ -5,9 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFhanoi"
         mc:Ignorable="d"
-        Title="WPF Color Picker" Height="350" Width="525">
-        <Grid>
-            
+        Title="WPF Color Picker" Height="390" Width="220"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Beige"
+        WindowStartupLocation="CenterScreen"
+        >
+    <Window.Resources>
+        <Style TargetType="TextBlock" x:Key="st_Header">
+            <Setter Property="Margin" Value="10,8,0,0"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="FontWeight" Value="Medium"></Setter>
+        </Style>
+        
+        <Style TargetType="Rectangle" x:Key="rc_ColorBox">
+            <Setter Property="Margin" Value="10,10,0,0"></Setter>
+            <Setter Property="Height" Value="20"></Setter>
+            <Setter Property="Width" Value="20"></Setter>
+            <Setter Property="Fill" Value="DarkGray"></Setter>
+        </Style>
+        
+        <Style TargetType="Canvas" x:Key="st_Slider"> 
+            <Setter Property="Margin" Value="0,10,0,0"></Setter>
+        </Style>
+    </Window.Resources>
+    
+    <Window.CommandBindings>
+        <CommandBinding Command="local:CustomCommands.Exit" Executed="cmd_Exit" CanExecute="cmd_CanExit"></CommandBinding>
+    </Window.CommandBindings>
+    
+    <Grid>
             <!-- Описываем строки грида -->
             <Grid.RowDefinitions>
                <RowDefinition Height="Auto"></RowDefinition> 
@@ -17,6 +44,48 @@
                <RowDefinition Height="*"></RowDefinition> 
             </Grid.RowDefinitions>
             
+            <!-- Описываем верхнюю часть окна (кнопка закрыть и подпись) -->
+            <DockPanel Grid.Row="0" Background="Beige">
+                <Button DockPanel.Dock="Right" BorderThickness="0" 
+                        Background="Beige" Margin="0,8,10,8" Command="local:CustomCommands.Exit">
+                    <Button.Content>
+                        <Image Source="Resources/cross.png" Height="18"></Image>
+                    </Button.Content>
+                </Button>
+                <TextBlock Style="{StaticResource st_Header}">Color Picker</TextBlock>
+            </DockPanel>
             
+            <!-- Область выбора цвета -->
+            <Canvas Grid.Row="1" Background="Aqua" Height="200"></Canvas>
+            
+            <StackPanel Grid.Row="2" Orientation="Vertical">
+               <Canvas x:Name="can_Color" Height="15" Width="200" Background="Black" Style="{StaticResource st_Slider}"></Canvas>
+               <Canvas Height="15" Width="200" Background="Black" Style="{StaticResource st_Slider}"></Canvas>
+            </StackPanel>
+            
+            <!-- Область с компонентами управления -->
+            <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label>HEX: </Label>
+                <TextBlock Margin="5">123</TextBlock>
+                <TextBlock Margin="5">100%</TextBlock>
+            </StackPanel>
+            
+            <!-- Палитра со стандартными цветами -->
+            <WrapPanel Grid.Row="4" Margin="0,0,0,10">
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+                <Rectangle Style="{StaticResource rc_ColorBox}" ></Rectangle>    
+            </WrapPanel>
         </Grid>
 </Window>

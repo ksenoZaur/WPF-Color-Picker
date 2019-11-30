@@ -21,6 +21,10 @@
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
         </e>
+        <e p="Resources" t="Include">
+          <e p="close-cross.png" t="Include" />
+          <e p="cross.png" t="Include" />
+        </e>
         <e p="WPFhanoi.csproj" t="IncludeRecursive" />
       </e>
       <e p="WPFhanoi.sln" t="IncludeFlat" />
