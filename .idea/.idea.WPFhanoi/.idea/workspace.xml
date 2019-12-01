@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8e0a98f-3be3-471a-b57e-c0e7326e6c7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WPFhanoi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WPFhanoi/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WPFhanoi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WPFhanoi/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFhanoi/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WPFhanoi/MainWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WPFhanoi/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WPFhanoi/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPFhanoi/WPFhanoi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WPFhanoi/WPFhanoi.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +17,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WPFhanoi/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2A55D587-43EC-479C-866B-425E85A3236D/83/4ce4860e/QueueUserWorkItemCallback.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WPFhanoi/CustomCommands.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WPFhanoi/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WPFhanoi/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
@@ -88,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574618640963</updated>
-      <workItem from="1574618645037" duration="17383000" />
+      <workItem from="1574618645037" duration="21618000" />
     </task>
     <servers />
   </component>
@@ -117,48 +116,50 @@
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.768" />
     <state x="324" y="123" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" />
     <state x="324" y="123" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/1366.768" />
+    <state width="569" height="437" key="DebuggerActiveHint" />
+    <state width="569" height="437" key="DebuggerActiveHint/1366.768" />
     <state x="463" y="117" key="FileChooserDialogImpl" />
     <state x="463" y="117" key="FileChooserDialogImpl/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.0.bottom" />
-    <state width="1322" height="216" key="GridCell.Tab.0.bottom/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.0.center" />
-    <state width="1322" height="216" key="GridCell.Tab.0.center/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.0.left" />
-    <state width="1322" height="216" key="GridCell.Tab.0.left/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.0.right" />
-    <state width="1322" height="216" key="GridCell.Tab.0.right/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.1.bottom" />
-    <state width="1322" height="216" key="GridCell.Tab.1.bottom/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.1.center" />
-    <state width="1322" height="216" key="GridCell.Tab.1.center/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.1.left" />
-    <state width="1322" height="216" key="GridCell.Tab.1.left/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.1.right" />
-    <state width="1322" height="216" key="GridCell.Tab.1.right/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.2.bottom" />
-    <state width="1322" height="216" key="GridCell.Tab.2.bottom/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.2.center" />
-    <state width="1322" height="216" key="GridCell.Tab.2.center/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.2.left" />
-    <state width="1322" height="216" key="GridCell.Tab.2.left/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.2.right" />
-    <state width="1322" height="216" key="GridCell.Tab.2.right/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.3.bottom" />
-    <state width="1322" height="216" key="GridCell.Tab.3.bottom/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.3.center" />
-    <state width="1322" height="216" key="GridCell.Tab.3.center/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.3.left" />
-    <state width="1322" height="216" key="GridCell.Tab.3.left/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.3.right" />
-    <state width="1322" height="216" key="GridCell.Tab.3.right/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.4.bottom" />
-    <state width="1322" height="216" key="GridCell.Tab.4.bottom/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.4.center" />
-    <state width="1322" height="216" key="GridCell.Tab.4.center/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.4.left" />
-    <state width="1322" height="216" key="GridCell.Tab.4.left/1366.768" />
-    <state width="1322" height="216" key="GridCell.Tab.4.right" />
-    <state width="1322" height="216" key="GridCell.Tab.4.right/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.0.bottom" />
+    <state width="1322" height="132" key="GridCell.Tab.0.bottom/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.0.center" />
+    <state width="1322" height="132" key="GridCell.Tab.0.center/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.0.left" />
+    <state width="1322" height="132" key="GridCell.Tab.0.left/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.0.right" />
+    <state width="1322" height="132" key="GridCell.Tab.0.right/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.1.bottom" />
+    <state width="1322" height="132" key="GridCell.Tab.1.bottom/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.1.center" />
+    <state width="1322" height="132" key="GridCell.Tab.1.center/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.1.left" />
+    <state width="1322" height="132" key="GridCell.Tab.1.left/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.1.right" />
+    <state width="1322" height="132" key="GridCell.Tab.1.right/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.2.bottom" />
+    <state width="1322" height="132" key="GridCell.Tab.2.bottom/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.2.center" />
+    <state width="1322" height="132" key="GridCell.Tab.2.center/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.2.left" />
+    <state width="1322" height="132" key="GridCell.Tab.2.left/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.2.right" />
+    <state width="1322" height="132" key="GridCell.Tab.2.right/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.3.bottom" />
+    <state width="1322" height="132" key="GridCell.Tab.3.bottom/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.3.center" />
+    <state width="1322" height="132" key="GridCell.Tab.3.center/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.3.left" />
+    <state width="1322" height="132" key="GridCell.Tab.3.left/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.3.right" />
+    <state width="1322" height="132" key="GridCell.Tab.3.right/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.4.bottom" />
+    <state width="1322" height="132" key="GridCell.Tab.4.bottom/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.4.center" />
+    <state width="1322" height="132" key="GridCell.Tab.4.center/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.4.left" />
+    <state width="1322" height="132" key="GridCell.Tab.4.left/1366.768" />
+    <state width="1322" height="132" key="GridCell.Tab.4.right" />
+    <state width="1322" height="132" key="GridCell.Tab.4.right/1366.768" />
     <state x="339" y="157" width="672" height="677" key="run.anything.popup" />
     <state x="339" y="157" width="672" height="677" key="run.anything.popup/1366.768" />
   </component>
@@ -171,42 +172,16 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/WPFhanoi/MainWindow.xaml.cs</url>
-          <line>28</line>
-          <properties documentPath="$PROJECT_DIR$/WPFhanoi/MainWindow.xaml.cs" initialLine="27">
+          <line>44</line>
+          <properties documentPath="$PROJECT_DIR$/WPFhanoi/MainWindow.xaml.cs" initialLine="44">
             <startOffsets>
-              <option value="766" />
+              <option value="1290" />
             </startOffsets>
             <endOffsets>
-              <option value="782" />
+              <option value="1310" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/WPFhanoi/MainWindow.xaml.cs</url>
-          <line>58</line>
-          <properties documentPath="$PROJECT_DIR$/WPFhanoi/MainWindow.xaml.cs" initialLine="47">
-            <startOffsets>
-              <option value="1878" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1894" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/WPFhanoi/MainWindow.xaml.cs</url>
-          <line>50</line>
-          <properties documentPath="$PROJECT_DIR$/WPFhanoi/MainWindow.xaml.cs" initialLine="40">
-            <startOffsets>
-              <option value="1518" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1518" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

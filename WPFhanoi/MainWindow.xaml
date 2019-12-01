@@ -59,7 +59,8 @@
             <Canvas Grid.Row="1" Background="Aqua" Height="200"></Canvas>
             
             <StackPanel Grid.Row="2" Orientation="Vertical">
-               <Canvas x:Name="can_Color" Height="15" Width="200" Background="Black" Style="{StaticResource st_Slider}"></Canvas>
+               <Canvas x:Name="can_Color" Height="15" Width="200" Background="Black" Style="{StaticResource st_Slider}">
+               </Canvas>
                <Canvas Height="15" Width="200" Background="Black" Style="{StaticResource st_Slider}"></Canvas>
             </StackPanel>
             
